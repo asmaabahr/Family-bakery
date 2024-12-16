@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* first */
+.family-bakery{
+    width: 100%;
+    height: 100%;
+    position: center;
+    background-image: url(img/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.up-nav{
+    position: fixed;
+    text-align: right;
+    width: 90%;
+}
+.nav-list{
+    list-style-type: none;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom:2px ;
+    touch-action: pan-y;
+    color: #fff;
+  
+}
+.nav-list li{
+    display: inline;
+    /* padding: 8px; */
+    font-size: 18px;
+    padding: 14px 16px;
+  text-decoration: none;
+    border-top:2px solid #8e7754;
+}
+
+.bakery-logo{
+    
+    padding: 20px 20px 10px 50px;
+    float: left;
+}
+
+.logo-img{
+    height: 48px;
+    
+}
+
+.welcom-text{
+    position: center;
+    text-align: center;
+    padding-top: 100px;
+    color: aliceblue;
+    font-size: 35;
+    font-family: garamond,serif;
+}
+
+.welcom-buttons
+{
+    position: center;
+    text-align: center;
+}
+
+.btn1{
+    color: #fff;
+    border-color:#8e7754 ; 
+    border-radius:5px ;
+    font-size: larger;
+    padding:18px 25px ;
+}
+
+.btn2{
+    padding:18px 25px ;
+    color: #fff;
+    font-size: larger;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-radius:5px ;
+}
+
+/* second */
+.aboutus-second{
+    
+    margin:100px 50px 50px 50px;
+    padding-left: 54.5px;
+    padding-right: 54.5px;
+    
+}
+
+.bread-img{
+    margin-inline: 50px 50px ;
+    /* padding-left: 54.5px;
+    padding-right: 54.5px; */
+    /* align-items: left; */
+    float: left;
+}
+.whoweare-text{
+    float: top right;
+    margin:50px 50px 50px 50px;
+    font-size: large;
+    text-align: left;
+    font-family: "Alegreya Sans";
+    
+
+}
+
+.whoweare-text p {
+    color:#686868 ;
+}
+/* third */
+
+
+.Our-Location{
+    padding-left: 54.5px;
+    padding-right: 54.5px;
+    padding-top: 50px;
+    background-color: #f8f8f8;
+}
+
+
+
+.location-text{
+    padding-top: 50px;
+    float: left;
+    padding-inline:50px 50px;
+    height: 500;
+    width:500;
+    font-size: large;
+    
+}
+
+.location-text p{
+    color:#686868 ;
+}
+
+.bakery-img{
+    float: right;
+    padding-inline:50px 50px;
+    
+}
+
+/* fourth */
+.our-baking{
+    margin:50px 50px 50px 50px;
+    padding-left: 54.5px;
+    padding-right: 54.5px;
+}
+
+.baking-text{
+    text-align: center;
+    font-size: larger;
+    font-family: "Alegreya Sans";
+}
+
+.baking-text p{
+    color:#686868 ;
+}
+.item{
+    float: left;
+    
+}
+
+.item img{
+    height: 300px;
+    width: 300px;
+    padding-left:50px ;
+}
+.baking-imgs{
+    float: left;
+}
+
+.item h4{
+    text-align: center;
+   font-size: 17px;
+   font-family: "Alegreya Sans";
+} 
+
+.img-text{
+    text-align: center;
+    font-size: large;
+    height: 200px;
+    width: 300px;
+    padding-left: 50px;
+    color:#686868 ;
+    font-family: "Alegreya Sans";
+}
+
+/* fifth */
+.Contact-info{
+    padding-left: 54.5px;
+    padding-right: 54.5px;
+    padding-top: 50px;
+    background-color: #f8f8f8;
+}
+
+.contact-text{
+    font-size: large;
+    /* height: 200px; */
+    width: 300px;
+    padding-right: 54.5px;
+    
+   
+}
+
+.contdetails-text{
+    font-size: large;
+    /* height: 200px; */
+    width: 300px;
+
+}
+
+.cont-list{
+    font-size: large;
+    
+}
+
+.map-icon{
+    float: right;
+}
+.clear-fix{
+    clear: both;
+}
